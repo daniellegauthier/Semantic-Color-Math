@@ -2,11 +2,11 @@
 This Jupyter notebook contains two primary analysis modules for color-based data processing and visualization. The project explores the relationship between colors, semantic meaning, and wave-like properties in spatiotemporal sequences.<br>
 <br>
 # Table of Contents
-Dependencies
-Module 1: Color Wave Momentum Analysis
-Module 2: Color-Word Semantic Analysis
-Usage
-Data Requirements
+Dependencies<br>
+Module 1: Color Wave Momentum Analysis<br>
+Module 2: Color-Word Semantic Analysis<br>
+Usage<br>
+Data Requirements<br>
 
 # Dependencies
 Module 1<br>
