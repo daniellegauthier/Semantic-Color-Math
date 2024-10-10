@@ -67,7 +67,7 @@ results_df, color_similarity = main()<br>
 # Data Requirements
 For Wave Analysis<br>
 No external data file required; uses predefined color sequences.<br>
-For Semantic Analysisv
+For Semantic Analysis<br>
 Requires a CSV file ('la matrice.csv') with columns:<br>
 'color': Color name<br>
 'r', 'g', 'b': RGB values<br>
