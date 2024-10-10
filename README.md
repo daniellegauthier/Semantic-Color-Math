@@ -61,7 +61,7 @@ chosen_pathway = 'knot'  # Options: knot, plot, pain, practical, spiritual, etc.
 # Generate and display analysis
 plot_momentum_analysis(x_coords, y_coords, t_coords)<br>
 Running the Semantic Analysis<br>
-pythonCopy# Load your color-word dataset<br>
+#Load your color-word dataset<br>
 results_df, color_similarity = main()<br>
 <br>
 # Data Requirements
