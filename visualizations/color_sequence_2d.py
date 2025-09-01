@@ -1,5 +1,5 @@
 """
-Core Semantic Color Math Visualizations
+Core Semantic Color Math Computations
 
 MSDS Thesis Research by Danielle Gauthier
 danielle.gauthier@lamatriz.ai
