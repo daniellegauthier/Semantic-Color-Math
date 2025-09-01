@@ -18,7 +18,7 @@ import seaborn as sns
 
 # --- Step 1: Load your data ---
 # Assumes you're using 'semantic_rgb_mapping_with_similarity.xlsx'
-rgb_df = pd.read_excel('/Users/daniellegauthier/Library/Mobile Documents/com~apple~CloudDocs/Document/premordial altar/architect 🧱📐🌐🔭/la_matriz_data/semantic_rgb_mapping_with_similarity.xlsx')
+rgb_df = pd.read_excel('/data/semantic_rgb_mapping_with_similarity.xlsx')
 
 # --- Step 2: Clean and select columns ---
 df = rgb_df[['R', 'G', 'B', 'Sentiment Score']].dropna()
