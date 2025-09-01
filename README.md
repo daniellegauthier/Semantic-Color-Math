@@ -54,12 +54,7 @@ Semantic-Color-Math/
 
 * **Discrete** weight $w_d(c)=\frac{\text{count}(c)}{\sum_c \text{count}(c)}$.
 * **Continuous** weight starts with summed sentiment per color $s(c)=\sum \text{sentiment}_i$.
-  To obtain a valid PDF we **min-max scale** to $[0,1]$ then renormalize:
-
-  $$
-  \tilde{s}(c)=\frac{s(c)-\min s}{\max s-\min s},\quad
-  w_s(c)=\frac{\tilde{s}(c)}{\sum_c \tilde{s}(c)}.
-  $$
+  To obtain a valid PDF we **min-max scale** to $[0,1]$ then renormalize
 
 ### 2) Samplers
 
