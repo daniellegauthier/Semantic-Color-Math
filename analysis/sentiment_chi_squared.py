@@ -17,7 +17,7 @@ import pandas as pd
 import re
 
 # Load your taxonomy data
-taxonomy_df = pd.read_csv('/Users/daniellegauthier/Library/Mobile Documents/com~apple~CloudDocs/Document/premordial altar/architect 🧱📐🌐🔭/la_matriz_data/la matrice.csv')
+taxonomy_df = pd.read_csv('/data/la matrice.csv')
 
 # Load BERT model
 model = SentenceTransformer('all-MiniLM-L6-v2')
