@@ -80,7 +80,7 @@ Semantic-Color-Math/
 
 ### A) Discrete vs Continuous color weights
 
-![Discrete vs Continuous](data/discrete vs continuous sentiment probability.png)
+![Discrete vs Continuous](data/discrete_vs_continuous_sentiment_probability.png)
 
 * **Purple**: not most frequent, but **dominant** in sentiment weight.
 * **Brown, Gold**: reasonable frequency but **negative** continuous weight.
