@@ -19,7 +19,7 @@ from ipywidgets import interact, Dropdown, Output, VBox, HBox, Button, Label
 from IPython.display import display
 
 # Load data
-semantic_df = pd.read_csv('/Users/daniellegauthier/Library/Mobile Documents/com~apple~CloudDocs/Document/premordial altar/architect 🧱📐🌐🔭/la_matriz_data/semantic_rgb_mapping_with_sentiment.csv')
+semantic_df = pd.read_csv('/data/semantic_rgb_mapping_with_sentiment.csv')
 
 # Preprocess
 semantic_df.dropna(subset=['Sentiment Score'], inplace=True)
