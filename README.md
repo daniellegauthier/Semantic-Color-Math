@@ -111,7 +111,7 @@ Semantic-Color-Math/
 
 ### E) Cluster color character (95% CIs, RGB)
 
-![Color clusters](data/color clusters.png)
+![Color clusters](data/color_clusters.png)
 
 * Tight, non-overlapping intervals indicate **statistically distinct color groups** (e.g., Cluster 0: high-yellow; Cluster 3: pure blue/purple).
 
@@ -173,7 +173,7 @@ These choices support my thesis that color can be a **semantic interface** and t
    * **Temperature/Platt scaling** against anchor distributions;
    * **Bayesian hierarchical model**: color-level priors, sequence-level posteriors.
 3. **Drift detection**: monitor KL divergence of live scores vs. anchored baseline.
-4. **Hybrid weight**: $w_\lambda = \lambda w_s + (1-\lambda) w_d$ with $\lambda$ tuned by validation against human ratings.
+4. **Hybrid weight**: $w_\lambda = \lambda w_s + (1-\lambda) w_d$ with $\lambda$ tuned by validation against human ratings. &#x20;
 
 ---
 
@@ -185,13 +185,13 @@ These choices support my thesis that color can be a **semantic interface** and t
 * Build **Vietoris–Rips** filtrations over distance thresholds.
 * Compute **H₀/H₁/H₂** barcodes with `ripser` / `giotto-tda`.
 * Define a **Topological Cohesion Score**: area under barcode for H₀ persistence minus spurious H₁/H₂ noise (or Bottleneck/Wasserstein distances to a curated “ideal” manifold).
-* Compare La Matriz vs. Random: expect **fewer small components** (more connectivity) and **stable 1-cycles** reflecting meaningful transitions.
+* Compare La Matriz vs. Random: expect **fewer small components** (more connectivity) and **stable 1-cycles** reflecting meaningful transitions. &#x20;
 
 ---
 
 ## Reproducible scripts
 
-* WIP, TBA
+* WIP, TBA &#x20;
 
 ---
 
