@@ -111,6 +111,8 @@ Semantic-Color-Math/
 
 ### E) Cluster color character (95% CIs, RGB)
 
+![Color clusters](data/color clusters.png)
+
 * Tight, non-overlapping intervals indicate **statistically distinct color groups** (e.g., Cluster 0: high-yellow; Cluster 3: pure blue/purple).
 
 ### F) Regression summaries
@@ -119,6 +121,10 @@ Semantic-Color-Math/
 * **RGB → Sentiment**: $R^2=0.380$. **B** significant (+), **G** significant (−), **R** ns.
   Diagnostics: residuals slightly non-normal; DW \~1–1.3.
 
+### G) Conclusion regarding the utility of Semantic Color Math for Emotional AI
+
+* As color is not statistically significant for sequence coherence, but it is statistically significant for predicting sentiment, the map of RGB color space is a promising tool for better aligned prompt responses from AI using the dataset.
+* It is not so precise that it waters down nuance of sentiment, but it is semantically relevant.
 ---
 
 ## Interpretation
