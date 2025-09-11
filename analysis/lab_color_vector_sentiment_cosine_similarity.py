@@ -18,7 +18,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-CSV_PATH = '/data/la_matrice_color_word_similarity.csv'
+CSV_PATH = '/data/la_matrice_with_color_word_similarity.csv'
 
 
 # === HELPERS ===
